@@ -1,0 +1,37 @@
+{
+  "argonaut-intent-anchor": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python3 ./skills/argonaut/scripts/intent_anchor.py",
+        "timeout": 10
+      }
+    ]
+  },
+  "argonaut-pre-edit-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "write_to_file|replace_file_content|multi_replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./skills/argonaut/scripts/pre_edit_guard.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "argonaut-stop-guard": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 ./skills/argonaut/scripts/stop_guard.py",
+        "timeout": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "argonaut-ai",
+  "version": "1.0.0",
+  "description": "Autonomous self-correcting engineering loop skill, runtime hooks, and discipline rules for Gemini in Google Antigravity.",
+  "type": "module",
+  "bin": {
+    "argonaut": "./bin/argonaut.mjs",
+    "argonaut-ai": "./bin/argonaut.mjs"
+  },
+  "files": [
+    "bin/",
+    "payload/",
+    "install.sh",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/argonaut.test.mjs",
+    "doctor": "node ./bin/argonaut.mjs doctor"
+  },
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "agent-skills",
+    "autonomous-coding",
+    "argonaut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyblnet/argonaut.git"
+  },
+  "homepage": "https://github.com/nyblnet/argonaut#readme",
+  "bugs": {
+    "url": "https://github.com/nyblnet/argonaut/issues"
+  },
+  "license": "MIT"
+}

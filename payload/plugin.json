@@ -1,0 +1,11 @@
+{
+  "name": "argonaut",
+  "displayName": "Argonaut Autonomous Engineering Loop",
+  "version": "1.0.0",
+  "description": "Autonomous self-correcting engineering loop (Root-Cause Recon -> TDD -> Deterministic Verification -> Adversarial Diff Audit) and Always-On engineering discipline rules for Google Antigravity.",
+  "suggestedPrompts": [
+    "Use /argonaut to investigate the root cause, write a regression test, and verify the fix",
+    "Run the Argonaut verification harness and audit our current git diff for edge cases",
+    "Implement this feature using the Argonaut TDD and adversarial review loop"
+  ]
+}

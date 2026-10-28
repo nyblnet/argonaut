@@ -1,0 +1,10 @@
+# OS & runtime artifacts
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+
+# Argonaut ephemeral loop state
+.agents/argonaut-state.md
+.agents/.argonaut-verify.stamp.json
+.agents/.argonaut-intent.lock.json
